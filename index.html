@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="第 10 章圖形化使用者介面與 tkinter 課堂測驗入口">
+  <title>第 10 章｜圖形化使用者介面測驗</title>
+  <style>
+    :root { color-scheme: light; font: 100%/1.6 system-ui, "Microsoft JhengHei", sans-serif; color: #111d38; background: #f2f5fc; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main { width: min(880px, calc(100% - 32px)); margin: clamp(28px, 9vh, 112px) auto; }
+    header { background: #142b93; color: #fff; padding: clamp(28px, 7vw, 64px); border-radius: 22px 22px 0 0; }
+    header p { margin: 0; color: #dae3ff; }
+    h1 { margin: 8px 0 16px; font-size: clamp(2rem, 6vw, 3.6rem); line-height: 1.15; }
+    section { padding: clamp(24px, 6vw, 48px); background: #fff; border: 1px solid #d9e1ef; border-top: 0; border-radius: 0 0 22px 22px; }
+    h2 { margin: 0; font-size: 1.45rem; }
+    section p { margin: 8px 0 24px; color: #50617d; }
+    nav { display: flex; flex-wrap: wrap; gap: 12px; }
+    a { display: inline-block; padding: 10px 18px; border-radius: 8px; font-weight: 700; text-decoration: none; }
+    a:focus-visible { outline: 3px solid #536de1; outline-offset: 3px; }
+    .primary { color: #fff; background: #2243cc; }
+    .primary:hover { background: #172f9e; }
+    .secondary { color: #13235d; border: 1px solid #aab8d6; }
+    .secondary:hover { background: #edf1fe; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p>Python 課堂測驗 · 第 10 章</p>
+      <h1>圖形化使用者介面</h1>
+      <p>視窗、元件與 Python tkinter 事件處理</p>
+    </header>
+    <section aria-labelledby="quiz">
+      <h2 id="quiz">開始測驗</h2>
+      <p>填寫學號與姓名後即可作答。共 10 道四選一題，每題 10 分，交卷後立即顯示成績。</p>
+      <nav aria-label="測驗入口">
+        <a class="primary" href="https://gui-chapter-10-quiz.hsnu-8558.chatgpt.site/">學生作答</a>
+        <a class="secondary" href="https://gui-chapter-10-quiz.hsnu-8558.chatgpt.site/teacher">教師成績查詢</a>
+      </nav>
+    </section>
+  </main>
+</body>
+</html>
